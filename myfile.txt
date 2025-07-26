@@ -1,1 +1,145 @@
-HI bro! How are you?
+HI bro!
+I have uploaded the powerbi Notes, Check this !!
+
+POWERBI:
+
+* Number of data is a datalake
+* Canvas or report view
+
+* DAX - Data Analysis Expression
+
+* Use Sample data -> finance -> check the checkbox -> Finance
+
+--> Summation means data is in number, if it is then it is a text column.
+ 
+--> To disable the name of the card. Brush -> category label (ON/OFF).
+
+--> Bar Chart need to be comparision. One is number data another is textual data is correct way.
+
+--> First row will be cards, last bottom right will be table, have slicer at the first page.
+
+BLINKIT PROJECT:
+
+1. First set the Canvas area. Height and Width (800 and 1400px). Vertical alignment to middle.
+2. Shape -> rounded tap
+3. Rotation -> 90 degree
+4. Change the height of the shape to 800px and width to 200px.
+
+5. Shape -> Rounded top corners to 20%.
+6. Shape -> Style ->  Colours -> set to -> #FFD200	
+7. Shape -> Style -> Shadow ->
+8. Text box -> blinkit -> Change the (it) Colour to green.
+9. Drag blinkit to the yellow colour and turn off the Background.
+10.Text box -> 'India's Last Minute App'.
+11. Drag 'India's Last Minute App' to the yellow colour and turn off the Background.
+
+12. Data -> Edit Query -> Clean up the data
+13. Has different upper and lower cases for the same words -> Replace values
+14. Check the green line to see our data quality
+15. Replace null with zero in Item weight column.
+
+No need
+________
+
+16. Table View -> right click -> new Column -> select the formula bar and edit that.
+_________
+
+17. DAX and Calculated Column
+_______________
+18. Right click the data -> New Measure -> add the formula and select the column have to add formula.
+
+
+Sunday:
+________
+
+19. New Card -> enter the 4 value in a single new card (Total sales, Average Sales, Total rating, Total Count)
+20. Change the layout to 2 rows and 2 columns and give space to 0px.
+21. Change the size of the card to 250px and 550px.
+22. Cards -> Shape -> Rounded Rectangle. Turn on the shadow.
+23. Callout Values -> Labels -> position -> Below Value.
+24. Make the labels as Bold
+25. Cards -> select series(columns) -> background -> select image -> make image as Fit.
+
+26. Insert picture in the 4 cards -> Images -> select series -> Change the size and choose the alignment.
+27. Do the above for four cards.
+28. Cards -> Select all series -> Ascent series -> Green.
+
+29. Insert -> Shape -> Change the colour to white -> change the rounded corner -> and select the mild colour border.
+30. Donut Chart -> select total sales and item fat content.
+
+31. Detail Labels -> select percent of total -> Turn off Title in General.
+
+32. Change the legend position to Top Left.
+33. Change the legend title inside the legend.
+34. Modelling -> Parameter-> fields -> select 4 fields.
+
+35. Change the slicer settings -> Style -> Tile -> Single Select -> Change the slicer height and width to make it as button.
+36. Change the colour -> Values -> Background -> FFD200
+
+37. Click the donut chart and change the value (Drag and drop the Parameter that we have created).
+
+
+38. Clustered bar chart ->  Select outlet location, Total Sales, Then drag and drop the Item Fat content in the legend fields
+39. Change the Colour of the chart to yellow and green. Bars-> Colour-> set the colour.
+40. Add the data value, remove the title, Remove the x and y axis title.
+41. Turn off the Gridline. Which will remove the background gridline in the chart.
+42. Change the data label-> Data labels -> Position -> Inside end.
+43. Insert -> Shape -> line -> Change the colour and insert it in the middle of the both cards.
+
+44. Bar chart -> Add the data value -> position -> inside end -> remove the gridline -> change the colour.
+45. Change the parameter in the X-axis to function the slice for all the 3 cards.
+
+46. Copy paste the line at make it as vertical by changing the degree value to 90 degree. Then add it in the view.
+
+47. insert -> shape -> make the shape by decreasing the rounded corner and border to ash colour.
+
+(text and number to be compared in bar chart.
+If both the columns are numbered, then we use scatter chart.)
+
+48. Add the scatter chart and select the outlet establishment, Total sales and change the x and y axis.
+49. Add the Data labels => remove the gridlines => add the shadow area (Yellow color and change the line colour to green).
+50. lines -> Interpolation type -> smooth
+
+
+
+FACT TABLE AND DIMENSTION TABLE:
+____________________________________
+
+1.Repeated values are separated in dimension table.
+2.original values are separated in fact table.
+
+* Load the sample data
+
+* Do the duplicate of the sheet
+
+* select 3 columns customer name, customer, address and remove the other columns.
+* select the customer name and remove the duplicate values.
+* In add column ribbon add the custom index value and change the column name from index to customer_id.
+* Again duplicate the main sheet.
+* Select item name and item category. Remove the other columns, remove the duplicates and add the index id to item_ID.
+* create the separate table for the date. 
+* Only have the date column only.
+Separate the year, month and day by clicking in the date function in the ribbon.
+Again duplicate the main sheet and rename it to fact table. And remove the customer, vegetables details. Only have the numbered data and date column.
+Add the customer_id and Item_id in the fact table.
+home -> close and apply.
+Now model the data. Have the fact table in the centre surrounding by the dimension table.
+Star schema (which is fact table is present in the centre and surrounded by the dimension table)
+
+
+🔁 Summary: Why We Split Data:
+	
+Reason                  	Benefit
+Remove repetition	    Saves space, avoids errors
+Easier maintenance	    Change data in one place
+Faster queries	            Optimized for joins and filters
+More flexible reporting	    Filter by name, category, location
+Scales better	            Fact table grows, others stay small
+
+
+
+shapes --> Fully cover ->> cut the segment by separating it.-> separate the layout as we want.
+
+Then select the main sheet and select one by one layout and click Merge space -> Substract
+
+Right click it and Format shape -> to reduce transparency
